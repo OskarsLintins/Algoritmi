@@ -78,7 +78,7 @@ def bfs(maze, start, finish):
 
 # SĀKUMA DAĻA
 # Funkcijai read_maze tiek padots fails ar labirintu, kurš aizpilda maze sarakstu ar datiem no faila
-maze = read_maze("C:\\Users\\Oskars\\Desktop\\ADAS\\Algoritmi\\maze4.txt")
+maze = read_maze("maze_11x11.txt")
 # Tālāk tiek atrasti sākuma 'S' un beigu 'G' punkti, izmantojot funkciju find_points, kura saņem labirintu kā sarakstu
 start, finish = find_points(maze)
 
